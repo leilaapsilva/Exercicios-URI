@@ -1,0 +1,18 @@
+//https://www.urionlinejudge.com.br/judge/pt/problems/view/1006
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	
+	double A, B, C, media;
+	
+	scanf("%lf %lf %lf", &A, &B, &C);
+	
+	media = A * 0.2 + B * 0.3 + C * 0.5;
+	
+	printf("MEDIA = %.1f\n", media);
+	
+	return 0;
+	
+}
